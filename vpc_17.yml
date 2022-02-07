@@ -152,7 +152,7 @@ Resources:
   myLaunchConfig:
     Type: AWS::AutoScaling::LaunchConfiguration
     Properties:
-      ImageId:  ami-03fa4afc89e4a8a09
+      ImageId:  ami-0a8b4cd432b1c3063
       InstanceMonitoring: true
       SecurityGroups:
         - Ref: InstanceSecurityGroup
